@@ -83,10 +83,10 @@ legend.onAdd = function() {
 
   // Add min & max
   var legendInfo = "<h1>Quake Depth</h1>" 
-    // "<div class=\"labels\">" +
-    //   "<div class=\"min\">" + limits[0] + "</div>" +
-    //   "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
-    // "</div>";
+    "<div class=\"labels\">" +
+      "<div class=\"min\">" + limits[0] + "</div>" +
+      "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
+    "</div>";
 
   div.innerHTML = legendInfo;
 
