@@ -10,4 +10,6 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 
+[Map Result](map.png)
+
 The resulting map takes data from all earthquakes over the last week with a magnitude over 1.0 and generates markers on the map where they occured. The radius of the marker is scaled relative to the magnitude of the earthquake where as the colour of the circle indicates the depth of the earthquake (a z-coordinate to latitude and longitude). The high end of the scale indicates earthquakes over 100 where as orange is the lowest at -20 and above. The scale goes up in intervals of 20. 
